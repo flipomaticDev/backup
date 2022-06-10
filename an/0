@@ -11,7 +11,7 @@
     <style>
         @font-face {
           font-family: 'Dogica_Pixel_Bold, Dogica Pixel';
-          src:  url('https://www.flipomatic.io/an/dogicapixelbold.otf') format('truetype')
+          src:  url('https://flipomatic.io/an/dogicapixelbold.otf') format('truetype')
         },
       body{
         font-family: 'Dogica_Pixel_Bold, Dogica Pixel';
@@ -69,7 +69,7 @@
     
       async function replaceLevelTaxes(level, taxes){
         console.log(level, taxes)
-        var url = "https://www.flipomatic.io/images/"+level
+        var url = "https://flipomatic.io/images/"+level
             axios({
                     url: url,
                     method: 'GET',
