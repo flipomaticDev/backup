@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.d7e38e98.chunk.css",
-    "main.js": "/static/js/main.cdfe6506.chunk.js",
+    "main.js": "/static/js/main.6eff8bc0.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.02b1840a.js",
     "static/css/2.ebd01956.chunk.css": "/static/css/2.ebd01956.chunk.css",
-    "static/js/2.0df2e700.chunk.js": "/static/js/2.0df2e700.chunk.js",
+    "static/js/2.41f5dfd4.chunk.js": "/static/js/2.41f5dfd4.chunk.js",
     "index.html": "/index.html",
-    "static/js/2.0df2e700.chunk.js.LICENSE.txt": "/static/js/2.0df2e700.chunk.js.LICENSE.txt",
+    "static/js/2.41f5dfd4.chunk.js.LICENSE.txt": "/static/js/2.41f5dfd4.chunk.js.LICENSE.txt",
     "static/media/100.4437afd8.png": "/static/media/100.4437afd8.png",
     "static/media/App.css": "/static/media/dogicapixelbold.f4e1a41c.ttf",
     "static/media/chart-line-solid.044b0271.svg": "/static/media/chart-line-solid.044b0271.svg",
@@ -16,13 +16,14 @@
     "static/media/logo.a0aa90ab.png": "/static/media/logo.a0aa90ab.png",
     "static/media/opensea.fc6980db.svg": "/static/media/opensea.fc6980db.svg",
     "static/media/polygon.6cde40a9.png": "/static/media/polygon.6cde40a9.png",
+    "static/media/ticket.af887dd3.png": "/static/media/ticket.af887dd3.png",
     "static/media/twitter-white.52c9b400.svg": "/static/media/twitter-white.52c9b400.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.02b1840a.js",
     "static/css/2.ebd01956.chunk.css",
-    "static/js/2.0df2e700.chunk.js",
+    "static/js/2.41f5dfd4.chunk.js",
     "static/css/main.d7e38e98.chunk.css",
-    "static/js/main.cdfe6506.chunk.js"
+    "static/js/main.6eff8bc0.chunk.js"
   ]
 }
