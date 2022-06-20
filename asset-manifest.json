@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7b3e495e.chunk.css",
-    "main.js": "/static/js/main.6fa60c16.chunk.js",
+    "main.js": "/static/js/main.1b34e4a0.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.02b1840a.js",
     "static/css/2.ebd01956.chunk.css": "/static/css/2.ebd01956.chunk.css",
     "static/js/2.678562b3.chunk.js": "/static/js/2.678562b3.chunk.js",
@@ -12,6 +12,7 @@
     "static/media/chart-line-solid.044b0271.svg": "/static/media/chart-line-solid.044b0271.svg",
     "static/media/discord.be4bfd11.svg": "/static/media/discord.be4bfd11.svg",
     "static/media/file-solid.1fb4c9c7.svg": "/static/media/file-solid.1fb4c9c7.svg",
+    "static/media/flipos-nft.424c7612.gif": "/static/media/flipos-nft.424c7612.gif",
     "static/media/gitbook.3e3c6e75.svg": "/static/media/gitbook.3e3c6e75.svg",
     "static/media/logo.a0aa90ab.png": "/static/media/logo.a0aa90ab.png",
     "static/media/lose-flipo.6f3e72f8.png": "/static/media/lose-flipo.6f3e72f8.png",
@@ -30,6 +31,6 @@
     "static/css/2.ebd01956.chunk.css",
     "static/js/2.678562b3.chunk.js",
     "static/css/main.7b3e495e.chunk.css",
-    "static/js/main.6fa60c16.chunk.js"
+    "static/js/main.1b34e4a0.chunk.js"
   ]
 }
