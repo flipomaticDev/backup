@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7b3e495e.chunk.css",
-    "main.js": "/static/js/main.b59e962a.chunk.js",
+    "main.js": "/static/js/main.1cbde0c8.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.02b1840a.js",
     "static/css/2.ebd01956.chunk.css": "/static/css/2.ebd01956.chunk.css",
     "static/js/2.678562b3.chunk.js": "/static/js/2.678562b3.chunk.js",
@@ -21,6 +21,7 @@
     "static/media/throw10.3922eac5.gif": "/static/media/throw10.3922eac5.gif",
     "static/media/throw100.9c0f665f.gif": "/static/media/throw100.9c0f665f.gif",
     "static/media/throw25.950bb947.gif": "/static/media/throw25.950bb947.gif",
+    "static/media/throw5.daa966c0.gif": "/static/media/throw5.daa966c0.gif",
     "static/media/throw50.4e0f07f9.gif": "/static/media/throw50.4e0f07f9.gif",
     "static/media/ticket.af887dd3.png": "/static/media/ticket.af887dd3.png",
     "static/media/twitter-white.52c9b400.svg": "/static/media/twitter-white.52c9b400.svg",
@@ -31,6 +32,6 @@
     "static/css/2.ebd01956.chunk.css",
     "static/js/2.678562b3.chunk.js",
     "static/css/main.7b3e495e.chunk.css",
-    "static/js/main.b59e962a.chunk.js"
+    "static/js/main.1cbde0c8.chunk.js"
   ]
 }
