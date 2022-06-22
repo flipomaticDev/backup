@@ -63,7 +63,7 @@
                             reader.readAsText(response.data); 
                             reader.onload = function() {
                             var imageDataUrl = reader.result;
-                            var img1 = imageDataUrl.replace(/SETTAXES/,taxes)
+                            var img1 = imageDataUrl.replace(/SETTAXES/,taxes.substr(0,4))
                             var img2 = img1.replace(/SETLEVEL/,level.padStart(3,'0'))
                             var newUrl = 'data:image/svg+xml;base64, '+btoa(img2)
 
