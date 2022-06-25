@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3da902e6.chunk.css",
-    "main.js": "/static/js/main.43a05d82.chunk.js",
+    "main.js": "/static/js/main.a029d892.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.02b1840a.js",
     "static/css/2.ebd01956.chunk.css": "/static/css/2.ebd01956.chunk.css",
     "static/js/2.e89db4b4.chunk.js": "/static/js/2.e89db4b4.chunk.js",
@@ -9,6 +9,7 @@
     "static/js/2.e89db4b4.chunk.js.LICENSE.txt": "/static/js/2.e89db4b4.chunk.js.LICENSE.txt",
     "static/media/100.4437afd8.png": "/static/media/100.4437afd8.png",
     "static/media/App.css": "/static/media/dogicapixelbold.f4e1a41c.ttf",
+    "static/media/auto.b9bee7d7.png": "/static/media/auto.b9bee7d7.png",
     "static/media/chart-line-solid.044b0271.svg": "/static/media/chart-line-solid.044b0271.svg",
     "static/media/discord.be4bfd11.svg": "/static/media/discord.be4bfd11.svg",
     "static/media/file-solid.007f4cf5.svg": "/static/media/file-solid.007f4cf5.svg",
@@ -32,6 +33,6 @@
     "static/css/2.ebd01956.chunk.css",
     "static/js/2.e89db4b4.chunk.js",
     "static/css/main.3da902e6.chunk.css",
-    "static/js/main.43a05d82.chunk.js"
+    "static/js/main.a029d892.chunk.js"
   ]
 }
