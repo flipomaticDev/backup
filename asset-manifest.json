@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3da902e6.chunk.css",
-    "main.js": "/static/js/main.28a0c267.chunk.js",
+    "main.js": "/static/js/main.039785b6.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.02b1840a.js",
     "static/css/2.ebd01956.chunk.css": "/static/css/2.ebd01956.chunk.css",
     "static/js/2.504dd041.chunk.js": "/static/js/2.504dd041.chunk.js",
@@ -17,6 +17,7 @@
     "static/media/gitbook.3e3c6e75.svg": "/static/media/gitbook.3e3c6e75.svg",
     "static/media/logo.a0aa90ab.png": "/static/media/logo.a0aa90ab.png",
     "static/media/lose-flipo.6f3e72f8.png": "/static/media/lose-flipo.6f3e72f8.png",
+    "static/media/lose_monkey_noise.a502fc50.mp3": "/static/media/lose_monkey_noise.a502fc50.mp3",
     "static/media/opensea.fc6980db.svg": "/static/media/opensea.fc6980db.svg",
     "static/media/polygon.6cde40a9.png": "/static/media/polygon.6cde40a9.png",
     "static/media/throw10.3922eac5.gif": "/static/media/throw10.3922eac5.gif",
@@ -26,13 +27,14 @@
     "static/media/throw50.4e0f07f9.gif": "/static/media/throw50.4e0f07f9.gif",
     "static/media/ticket.af887dd3.png": "/static/media/ticket.af887dd3.png",
     "static/media/twitter-white.52c9b400.svg": "/static/media/twitter-white.52c9b400.svg",
-    "static/media/win-flipo.dac6fd31.png": "/static/media/win-flipo.dac6fd31.png"
+    "static/media/win-flipo.dac6fd31.png": "/static/media/win-flipo.dac6fd31.png",
+    "static/media/win_monkey_noise.d785d6db.mp3": "/static/media/win_monkey_noise.d785d6db.mp3"
   },
   "entrypoints": [
     "static/js/runtime-main.02b1840a.js",
     "static/css/2.ebd01956.chunk.css",
     "static/js/2.504dd041.chunk.js",
     "static/css/main.3da902e6.chunk.css",
-    "static/js/main.28a0c267.chunk.js"
+    "static/js/main.039785b6.chunk.js"
   ]
 }
