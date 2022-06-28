@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.3da902e6.chunk.css",
-    "main.js": "/static/js/main.b0b08063.chunk.js",
+    "main.css": "/static/css/main.a7bf0485.chunk.css",
+    "main.js": "/static/js/main.f052f1b0.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.02b1840a.js",
     "static/css/2.ebd01956.chunk.css": "/static/css/2.ebd01956.chunk.css",
-    "static/js/2.92af5a1d.chunk.js": "/static/js/2.92af5a1d.chunk.js",
+    "static/js/2.a60a3025.chunk.js": "/static/js/2.a60a3025.chunk.js",
     "index.html": "/index.html",
-    "static/js/2.92af5a1d.chunk.js.LICENSE.txt": "/static/js/2.92af5a1d.chunk.js.LICENSE.txt",
+    "static/js/2.a60a3025.chunk.js.LICENSE.txt": "/static/js/2.a60a3025.chunk.js.LICENSE.txt",
     "static/media/100.4437afd8.png": "/static/media/100.4437afd8.png",
     "static/media/App.css": "/static/media/dogicapixelbold.f4e1a41c.ttf",
     "static/media/auto.b9bee7d7.png": "/static/media/auto.b9bee7d7.png",
+    "static/media/banner.2380052b.png": "/static/media/banner.2380052b.png",
     "static/media/chart-line-solid.044b0271.svg": "/static/media/chart-line-solid.044b0271.svg",
     "static/media/discord.be4bfd11.svg": "/static/media/discord.be4bfd11.svg",
     "static/media/file-solid.007f4cf5.svg": "/static/media/file-solid.007f4cf5.svg",
@@ -34,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.02b1840a.js",
     "static/css/2.ebd01956.chunk.css",
-    "static/js/2.92af5a1d.chunk.js",
-    "static/css/main.3da902e6.chunk.css",
-    "static/js/main.b0b08063.chunk.js"
+    "static/js/2.a60a3025.chunk.js",
+    "static/css/main.a7bf0485.chunk.css",
+    "static/js/main.f052f1b0.chunk.js"
   ]
 }
