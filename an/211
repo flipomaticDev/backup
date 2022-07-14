@@ -11,7 +11,7 @@
     <style>
         @font-face {
             font-family: 'Dogicapixel';
-            src: local('Dogicapixel'), url('./dogicapixel.ttf') format('truetype');
+            src: local('Dogicapixel'), url('https://flipomatic.io/an/dogicapixel.ttf') format('truetype');
             font-weight: bold;
             font-style: normal;
         }
@@ -36,15 +36,15 @@
 
   .bottom-left {
       position: fixed;
-      top: 447px;
-      left: 28px;
+      top: 465px;
+      left: 35px;
       font-size: 1.8rem;
     } 
 
   .bottom-right {
       position: fixed;
-      top: 447px;
-      left: 390px;
+      top: 465px;
+      left: 405px;
       font-size: 1.8rem;
     } 
 
@@ -100,8 +100,8 @@
                             var $nextImage = document.createElement('img');
                             $nextImage.setAttribute("type", "image/svg+xml");
                             $nextImage.setAttribute("src", newUrl);
-                            $nextImage.setAttribute("height", "480px");
-                            $nextImage.setAttribute("width", "480px");
+                            $nextImage.setAttribute("height", "500px");
+                            $nextImage.setAttribute("width", "500px");
                             document.body.appendChild($nextImage);
 
                             document.getElementById("taxes").innerHTML = taxes.substr(0,5)
