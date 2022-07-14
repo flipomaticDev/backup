@@ -10,8 +10,8 @@
   <body>
     <style>
         @font-face {
-            font-family: 'Dogicapixel';
-            src: local('Dogicapixel'), url('https://flipomatic.io/an/dogicapixel.ttf') format('truetype');
+            font-family: 'Dogicapixelbold';
+            src: local('Dogicapixelbold'), url('https://flipomatic.io/an/dogicapixelbold.ttf') format('truetype');
             font-weight: bold;
             font-style: normal;
         }
@@ -24,7 +24,7 @@
         overflow: hidden;
         background-color: black;
         color: white;
-        font-family: 'Dogicapixel';
+        font-family: 'Dogicapixelbold';
       },
       div {
           overflow: hidden;
@@ -37,7 +37,7 @@
   .bottom-left {
       position: fixed;
       top: 465px;
-      left: 35px;
+      left: 29px;
       font-size: 1.8rem;
     } 
 

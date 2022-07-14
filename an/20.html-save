@@ -11,7 +11,7 @@
     <style>
         @font-face {
           font-family: 'Dogica_Pixel_Bold';
-          src:  url('./dogicapixelbold.otf') format('truetype')
+          src:  url('./dogicapixelboldboldbold.otf') format('truetype')
         },
       body{
         font-family: 'Dogica_Pixel_Bold';
@@ -23,7 +23,7 @@
         height: 170px;
         overflow: hidden;
         background-color: black;
-        font-family: 'dogicapixelbold';
+        font-family: 'dogicapixelboldboldbold';
       },
       div {
           overflow: hidden;
