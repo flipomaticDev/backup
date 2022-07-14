@@ -36,14 +36,14 @@
 
   .bottom-left {
       position: fixed;
-      top: 165px;
-      left: 10px;
+      top: 164px;
+      left: 19px;
       font-size: .6rem;
     } 
 
   .bottom-right {
       position: fixed;
-      top: 165px;
+      top: 164px;
       left: 145px;
       font-size: .6rem;
     } 
@@ -72,7 +72,8 @@
             }
             axios.post(url,json,headers).then(async response => {
                             const level = response["data"]["data"]["nftcontracts"]["0"]["level"]
-                            const taxes = level /100 * 3
+                            let taxes = level /100 * 3
+                            taxes = (Math.round(taxes * 100) / 100).toFixed(2);
                             if (taxes === 0)
                                  await replaceLevelTaxes(level.toString(),"0.00")
                             else
@@ -103,7 +104,7 @@
                             $nextImage.setAttribute("width", "170px");
                             document.body.appendChild($nextImage);
 
-                            document.getElementById("taxes").innerHTML = taxes.substr(0,4)
+                            document.getElementById("taxes").innerHTML = taxes.substr(0,5)
                             document.getElementById("level").innerHTML = level.padStart(3,'0')
                         } 
                  })
