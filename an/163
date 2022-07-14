@@ -19,8 +19,8 @@
       html {
         margin: 0;
         padding: 0;
-        width: 170px;
-        height: 170px;
+        width: 100%;
+        height: 100%;
         overflow: hidden;
         background-color: black;
         color: white;
@@ -36,16 +36,16 @@
 
   .bottom-left {
       position: fixed;
-      top: 164px;
-      left: 19px;
-      font-size: .6rem;
+      top: 447px;
+      left: 28px;
+      font-size: 1.8rem;
     } 
 
   .bottom-right {
       position: fixed;
-      top: 164px;
-      left: 145px;
-      font-size: .6rem;
+      top: 447px;
+      left: 390px;
+      font-size: 1.8rem;
     } 
 
 
@@ -57,7 +57,7 @@
       async function gatherGRT(id){
             var url = "https://api.thegraph.com/subgraphs/name/flipomaticdev/flipo"
             const json =  JSON.stringify({query: `{
-                  nftcontracts(first:1, where: {tokenId: 20}){
+                  nftcontracts(first:1, where: {tokenId: 163}){
                     id
                     tokenId
                     date
@@ -100,8 +100,8 @@
                             var $nextImage = document.createElement('img');
                             $nextImage.setAttribute("type", "image/svg+xml");
                             $nextImage.setAttribute("src", newUrl);
-                            $nextImage.setAttribute("height", "170px");
-                            $nextImage.setAttribute("width", "170px");
+                            $nextImage.setAttribute("height", "480px");
+                            $nextImage.setAttribute("width", "480px");
                             document.body.appendChild($nextImage);
 
                             document.getElementById("taxes").innerHTML = taxes.substr(0,5)
