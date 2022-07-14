@@ -40,7 +40,7 @@
       async function gatherGRT(id){
             var url = "https://api.thegraph.com/subgraphs/name/flipomaticdev/flipo"
             const json =  JSON.stringify({query: `{
-                  nftcontracts(first:1, where: {tokenId: 203}){
+                  nftcontracts(first:1, where: {tokenId: ${i}3}){
                     id
                     tokenId
                     date

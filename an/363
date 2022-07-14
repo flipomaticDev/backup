@@ -10,20 +10,21 @@
   <body>
     <style>
         @font-face {
-          font-family: 'Dogica_Pixel_Bold';
-          src:  url('./dogicapixelbold.otf') format('truetype')
-        },
-      body{
-        font-family: 'Dogica_Pixel_Bold';
-      },
+            font-family: 'Dogicapixel';
+            src: local('Dogicapixel'), url('./dogicapixel.ttf') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+        }
+
       html {
         margin: 0;
         padding: 0;
-        width: 480px;
-        height: 480px;
+        width: 170px;
+        height: 170px;
         overflow: hidden;
         background-color: black;
-        font-family: 'dogicapixelbold';
+        color: white;
+        font-family: 'Dogicapixel';
       },
       div {
           overflow: hidden;
@@ -33,6 +34,22 @@
           overflow: hidden;
        }       
 
+  .bottom-left {
+      position: fixed;
+      top: 165px;
+      left: 10px;
+      font-size: .6rem;
+    } 
+
+  .bottom-right {
+      position: fixed;
+      top: 165px;
+      left: 145px;
+      font-size: .6rem;
+    } 
+
+
+
 
     </style>
     <script>
@@ -40,7 +57,7 @@
       async function gatherGRT(id){
             var url = "https://api.thegraph.com/subgraphs/name/flipomaticdev/flipo"
             const json =  JSON.stringify({query: `{
-                  nftcontracts(first:1, where: {tokenId: 363}){
+                  nftcontracts(first:1, where: {tokenId: 20}){
                     id
                     tokenId
                     date
@@ -54,8 +71,6 @@
                       'content-type': 'application/json',
             }
             axios.post(url,json,headers).then(async response => {
-                            console.log(response)
-                            console.log(response["data"])
                             const level = response["data"]["data"]["nftcontracts"]["0"]["level"]
                             const taxes = level /100 * 3
                             if (taxes === 0)
@@ -68,28 +83,28 @@
       }
     
       async function replaceLevelTaxes(level, taxes){
-        console.log(level, taxes)
         var url = "https://flipomatic.io/images/"+level
             axios({
                     url: url,
                     method: 'GET',
                     responseType: 'blob',
                          }).then(async response => {
-
                             var reader = new window.FileReader();
                             reader.readAsText(response.data); 
                             reader.onload = function() {
                             var imageDataUrl = reader.result;
                             var img1 = imageDataUrl.replace(/SETTAXES/,taxes.substr(0,4))
                             var img2 = img1.replace(/SETLEVEL/,level.padStart(3,'0'))
-                            var newUrl = 'data:image/svg+xml;base64, '+btoa(img2)
+                            var newUrl = 'data:image/svg+xml;base64, '+btoa(imageDataUrl)
                             var $nextImage = document.createElement('img');
                             $nextImage.setAttribute("type", "image/svg+xml");
                             $nextImage.setAttribute("src", newUrl);
-                            $nextImage.setAttribute("height", "480px");
-                            $nextImage.setAttribute("width", "480px");
+                            $nextImage.setAttribute("height", "170px");
+                            $nextImage.setAttribute("width", "170px");
                             document.body.appendChild($nextImage);
 
+                            document.getElementById("taxes").innerHTML = taxes.substr(0,4)
+                            document.getElementById("level").innerHTML = level.padStart(3,'0')
                         } 
                  })
       }
@@ -100,11 +115,11 @@
 
       async function tick() {
           await gatherGRT()
-          console.log("OK");
-
           //setTimeout(tick, 1000);
       }
      tick();
     </script>
+    <div class="bottom-left" id="taxes"></div>
+    <div class="bottom-right" id="level"></div>
   </body>
 </html>
